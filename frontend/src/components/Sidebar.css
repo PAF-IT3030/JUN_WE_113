@@ -1,0 +1,30 @@
+/* Sidebar.css */
+
+.sidebar {
+    background-color: #0b360b; /* Create your desired background color */
+    color: white;
+    width: 280px; /* Adjust the width as needed */
+    padding: 20px; /* Create padding to create margin around the content */
+    height: calc(100vh); /* Adjust height as needed, considering the header height */
+    overflow-y: auto; /* Create vertical scroll */
+    margin-right: 25px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.sidebar a:hover {
+    color: #fff; /* Change to your desired hover color */
+}
+
+/* Center the "Create" button */
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
